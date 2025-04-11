@@ -5,4 +5,4 @@ module:
       build:
         hugo_version: '0.136.5'
 
-publishDir: "output"
+
