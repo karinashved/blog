@@ -1,0 +1,8 @@
+module:
+  imports:
+    - path: "https://github.com/HugoBlox/hugo-blox-builder"
+      theme: "wowchemy/wowchemy-hugo-themes"
+      build:
+        hugo_version: '0.136.5'
+
+publishDir: "output"
