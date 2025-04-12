@@ -1,17 +1,14 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Карина Швед
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Karina
+last_name: Shved
 
 # Status emoji
 status:
-  icon: ☕️
+   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,115 +17,110 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Middle-grade разработчик | Специалист по управлению проектами
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations to display in Biography block
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Freelance Consultant
+    url: https://karinashved.com
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:karina.shveddd@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: brands/github
+    url: https://github.com/karinashved
   - icon: brands/instagram
     url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
 
+# Interests
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Go
+  - Python
+  - Управление проектами
+  - IT-консалтинг
+  - Социальные сети и продвижение
+  - Координация команды
 
+# Education
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
+  - area: MBAn Master of Business Analytics
     institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2028-09-01
+    date_end: 2030-06-30
     summary: |
       GPA: 3.8/4.0
+      Курсы включали:
+        - Economic Analysis for Business Decisions: Основы микроэкономического анализа для принятия управленческих решений.
+        - Data, Models, and Decisions: Использование данных для принятия решений в управлении.
+        - Communication for Leaders: Развитие навыков коммуникации для лидеров.
+        - Organizational Processes: Анализ и управление организациями.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelor in Mathematics & Mechanics
+    institution: RUDN
+    date_start: 2024-09-01
+    date_end: 2028-06-30
     summary: |
       GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Курсы включали:
+        - Advanced Mathematics (Linear Algebra, Mathematical Analysis)
+        - Computer Science
+        - Physics
+        - Differential Equations
+
+# Work experience
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Project-manager
+    company_name: Apple
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2029-01-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+    summary: |
+       Чем я была полезна компании?:
+        - Cross-Functional Collaboration and Team Leadership
+        - Strategic Planning and Execution
+        - Stakeholder Engagement and Communication
+
+  - position: Backend Software Engineer (Golang)
+    company_name: Microsoft
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2028-01-01
+    date_end: 2029-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Чем я была полезна компании?:
+        - Разработка бэкенд-систем, включая микросервисы и API
+        - Разработка облачных решений (Azure, Docker, Kubernetes)
+        - Оптимизация производительности и отладку
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Go
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Project-management
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: code-bracket
+      - name: IT Consulting
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: code-bracket
+      - name: Social Media Marketing (SMM)
+        description: ''
+        percent: 60
+        icon: code-bracket
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Gym
         description: ''
         percent: 60
         icon: person-simple-walk
@@ -136,23 +128,20 @@ skills:
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: Languages learning
         description: ''
         percent: 80
-        icon: camera
+        icon: globe
 
 languages:
-  - name: English
+  - name: Русский
     percent: 100
-  - name: Chinese
+  - name: English
     percent: 75
-  - name: Portuguese
+  - name: Italiano
     percent: 25
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# Awards
 awards:
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
@@ -161,6 +150,7 @@ awards:
     icon: coursera
     summary: |
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+  
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
@@ -170,17 +160,19 @@ awards:
       Learned:
       - Synthesize your own blockchain solutions
       - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts, and Dapps.
+  
+  - title: 'Object-Oriented Programming in Go'
+    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-go
     certificate_url: https://www.datacamp.com
     date: '2023-01-21'
     awarder: datacamp
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Object-oriented programming (OOP) in Go lets you specify relationships between functions and the objects that they can act on. This is an intermediate-level course, providing an introduction to OOP in Go.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Привет! Меня зовут Карина. Я middle-grade разработчик на Go и Python, а также специалист по управлению проектами. В своей работе я помогаю компаниям эффективно управлять проектами, координирую команды и помогаю им продвигаться в социальных сетях, повышая трафик и вовлеченность. Также веду блог, где делюсь своим опытом в управлении проектами и IT-консалтинге. Училась в США на магистратуре по программе Бизнес-Аналитика, общение с людьми - мой конёк!
+
